@@ -20,7 +20,7 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">123
+			<div class="entry-meta">
 				<?php
 				pcware_posted_on();
 				pcware_posted_by();

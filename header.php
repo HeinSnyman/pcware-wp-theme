@@ -45,6 +45,12 @@
 
 		</nav><!--Navbar-->
 
+		<?php if(class_exists( 'WooCommerce' ) && is_woocommerce()): ?>
+
+			<?php woocommerce_breadcrumb();?>
+
+		<?php endif; ?>
+
 	</header>
 
 

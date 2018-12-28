@@ -52,7 +52,9 @@ li   { font-size: 1.4em; } /* =14px? */
 body{
 	background: #181818;
 }
-
+main#main{
+	min-height: 80vh;
+}
 
 /**------- HEADER ----------**/
 
@@ -151,6 +153,25 @@ h2.section-heading{
 	width: 70%;
 }
 
+/**SIDEBAR**/
+aside#secondary{
+	display: inline-block;
+	position: fixed;
+	top: 20%;
+	background-color: #151515;
+	padding: 25px 45px 20px 10px;
+}
+aside#secondary .cat-item{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	padding: 5px 0 5px 0;
+	font-size: 1.4em;
+}
+aside#secondary .current-cat a{
+	color: #ffa500;
+}
+
+
 /**Categories**/
 #categories{
 	margin-top: 8em;
@@ -169,7 +190,24 @@ h2.section-heading{
 	padding-top: 2em;
 }
 
+/**BREADCRUMBS**/
+div.store-breadcrumbs{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	font-weight: 200;
+	color: #FFA500;
+}
+div.store-breadcrumbs a{
+	color: white;
+}
+
 /**SHOP**/
+.woocommerce .woocommerce-result-count{
+	display: none;
+}
+header h1.entry-title{
+	display: none;
+}
 .products .product{
 	padding: 0;
 	background: black;

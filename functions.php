@@ -186,3 +186,16 @@ register_nav_menu('top','Top menu');
 
 
 add_action('wp_enqueue_scripts', 'pcware_custom_css');
+
+//Woocommerce Breadcrumbs
+add_filter( 'woocommerce_breadcrumb_defaults', 'pcware_woocommerce_breadcrumbs' );
+function pcware_woocommerce_breadcrumbs(){
+	return array(
+		'delimiter'		 	=>		' &#47; ',
+		'wrap_before'		=>		'<div class="container"><div class="row"><div class="store-breadcrumbs">',
+		'wrap_after'		=>		'</div></div></div>',
+		'before'			=> 		'',
+		'after'				=>		'',
+		'home'				=>		_x('Home', 'breadcrumb','woocommerce'),
+	);
+}
