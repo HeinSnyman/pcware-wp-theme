@@ -26,7 +26,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 ?>
 
 
-	<div class="col-md-3 <?php wc_product_class(); ?>">
+	<div <?php wc_product_class('col-md-3'); ?>>
 		<?php  
 			do_action( 'woocommerce_before_shop_loop_item' );
 
