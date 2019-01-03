@@ -242,3 +242,11 @@ header h1.entry-title{
 	margin-top: 0.5em;
 }
 
+.woocommerce .product .woocommerce-tabs ul.tabs{
+	display: none;
+}
+.woocommerce .product .woocommerce-tabs .panel{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 50px;
+}
