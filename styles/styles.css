@@ -171,6 +171,11 @@ aside#secondary .current-cat a{
 	color: #ffa500;
 }
 
+.woocommerce .woocommerce-notices-wrapper .woocommerce-message{
+	color: white;
+	border-top-color: #FFA500;
+	background: none;
+}
 
 /**Categories**/
 #categories{
@@ -249,4 +254,100 @@ header h1.entry-title{
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 50px;
+}
+
+.woocommerce .single-product h1.product_title{
+	font-size: 2.4em;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	padding-bottom: 25px;
+}
+.woocommerce .single-product .woocommerce-Tabs-panel h2.description-heading{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: 500;
+	padding: 5px 0 5px 0;
+}
+
+.woocommerce .single-product .woocommerce-Tabs-panel ul.specs{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	padding: 10px 0 10px 0;
+}
+.woocommerce .single-product .woocommerce-Tabs-panel ul li{
+	font-size: 14px;
+}
+.woocommerce .single-product .woocommerce-Tabs-panel a.product_link{
+	color: #FFA500;
+	text-decoration: underline;
+}
+
+.woocommerce-variation-add-to-cart .quantity{
+	display: none;
+}
+
+.woocommerce-variation-add-to-cart button.single_add_to_cart_button.button{
+	background-color: #FFA500;
+	font-size: 14px;
+	font-weight: 200;
+	border-radius: 25px;
+	padding: 10px 50px;
+	color: black;
+}
+.woocommerce-variation-add-to-cart button.single_add_to_cart_button.button:hover{
+	background-color: lightsalmon;
+}
+nav.post-navigation{
+	display: none;
+}
+
+.woocommerce-product-details__short-description{
+	display: none;
+}
+
+
+/** CART PAGE **/
+
+.woocommerce form table, th, td{
+	border-top: 1px solid #FFA500;
+	border-bottom: 1px solid #FFA500;
+}
+.woocommerce form td{
+	color: white;
+	font-size: 14px;
+}
+.woocommerce form thead{
+	color: #FFA500;
+	font-size: 14px;
+}
+
+.woocommerce .cart_totals h2{
+	font-size: 14px;
+	color: #FFA500;
+}
+.woocommerce .cart_totals .cart-subtotal{
+	color: white;
+	font-size: 14px;
+}
+.woocommerce .cart_totals .order-total{
+	font-size: 14px;
+	color: #FFA500;
+}
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button{
+	background-color: #FFA500;
+	color: black;
+}
+.wc-proceed-to-checkout a.checkout-button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:hover{
+	background-color: lightsalmon;
+	color: black;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	background-color: #FFA500;
+	color: black;
+}
+.woocommerce #respond input#submit, .woocommerce a.button:hover, .woocommerce button.button:hover , .woocommerce input.button:hover{
+	background-color: #FFA500;
+	color: black;
 }
