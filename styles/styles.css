@@ -269,6 +269,9 @@ header h1.entry-title{
 	font-weight: 500;
 	padding: 5px 0 5px 0;
 }
+.woocommerce-Tabs-panel--description h2{
+	font-size: 16px
+}
 
 .woocommerce .single-product .woocommerce-Tabs-panel ul.specs{
 	font-family: Arial, Helvetica, sans-serif;
@@ -285,6 +288,30 @@ header h1.entry-title{
 
 .woocommerce-variation-add-to-cart .quantity{
 	display: none;
+}
+
+.woocommerce .product .price span{
+	color: #FFA500;
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 16px	;
+
+}
+.woocommerce .product .cart button{ 
+	background-color: #FFA500;
+	font-size: 14px;
+	font-weight: 200;
+	border-radius: 25px;
+	padding: 10px 50px;
+	color: black;
+	
+}
+
+.woocommerce .product .cart button:hover{
+	background-color: #ffb733;
+} 
+
+.woocommerce .product .cart{
+	margin: 15px 0;
 }
 
 .woocommerce-variation-add-to-cart button.single_add_to_cart_button.button{
