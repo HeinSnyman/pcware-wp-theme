@@ -101,6 +101,22 @@ ul li.nav-link:hover{
 	text-decoration: none;
 }
 
+#mega-menu-wrap-menu-1, li.mega-nav-link{
+	background: none;
+}
+
+li.mega-nav-link:hover{
+	background: none;
+}
+li.mega-nav-link .mega-current_page_item{
+	background: none;
+}
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link{
+	background: none;
+}
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:hover{
+	background: none;
+}
 
 /**Front-Page**/
 /**FOOTER**/
