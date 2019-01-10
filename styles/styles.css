@@ -394,3 +394,135 @@ nav.post-navigation{
 	background-color: #FFA500;
 	color: black;
 }
+
+/** CHECKOUT PAGE **/
+.woocommerce-checkout h3{
+	font-size: 20px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.woocommerce-checkout .woocommerce form .form-row input{
+	margin-left: 5px;
+}
+
+.woocommerce-checkout .woocommerce form .form-row textarea{
+	width: 60%;
+}
+.woocommerce-checkout .woocommerce form .form-row{
+	background: black;
+	padding: 25px;
+	color: orange;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	vertical-align: middle
+}
+.woocommerce-checkout .woocommerce form .form-row span strong{
+	color: white;
+	line-height: 2;
+	padding-left: 5px;
+}
+.woocommerce-checkout .woocommerce form .order-notes__field{
+	line-height: 2;
+
+}
+.woocommerce-checkout .woocommerce form #billing_state_field span.woocommerce-input-wrapper{
+	width: 20%;
+}
+
+
+
+.woocommerce-checkout .woocommerce form .form-row-first,.woocommerce-checkout .woocommerce form .form-row-last{
+	background: black;
+	width: 50%;
+	padding: 25px;
+	color: #FFA500;
+}
+
+/** ORDER REVIEW **/
+h3#order_review_heading{
+	color: #ffa500;
+	font-size: 20px;
+}
+#order_review th.product-name{
+	color: white;
+
+}
+#order_review th.product-total{
+	color: white;
+}
+#order_review tr.cart_item td.product-name{
+	color: #FFA500;
+	font-weight: bold;
+	font-size: 16px;
+}
+#order_review tr.cart_item td.product-total{
+	color: whtie;
+	font-weight: lighter;
+	font-size: 14px;
+}
+#order_review tr.cart-subtotal th{
+	color:white;
+	font-size: 14px;
+	font-weight: lighter;
+}
+#order_review tr.cart-subtotal td{
+	font-size: 14px;
+	color: white;
+	font-weight: lighter;
+}
+#order_review tr.order-total th{
+	color: white;
+	font-size: 14px;
+}
+#order_review tr.order-total td{
+	color: #FFA500;
+	font-size: 14px;
+}
+.woocommerce-checkout-payment ul.wc_payment_methods{
+	background: black;
+}
+.wc_payment_method, .payment_method_payfast label{
+	color: white;
+
+}
+.form-row .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text p{
+	color: white;;
+}
+.form-row .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text a{
+	text-decoration: underline;
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+	background: #FFA500;
+}
+
+/**THANK YOU PAGE**/
+.woocommerce .woocommerce-order .thankyou-reciept {
+	display: flex;
+	justify-content: center;
+	color: #FFA500;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.woocommerce .woocommerce-order .thankyou-reciept strong{
+	color: white;
+	text-align: center;
+}
+.woocommerce .woocommerce-order .thankyou-text{
+	text-align: center;
+	padding: 15px;
+	color: white;
+	font-size: 18px;
+}
+
+.woocommerce .woocommerce-order .woocommerce-order-details{
+	color: white;
+}
+.woocommerce .woocommerce-table__product-name a{
+	color: #FFA500;
+	padding-left: 15px;
+}
+.woocommerce .woocommerce-order .woocommerce-customer-details{
+	color: white;
+}
