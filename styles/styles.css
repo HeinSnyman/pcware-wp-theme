@@ -526,3 +526,16 @@ h3#order_review_heading{
 .woocommerce .woocommerce-order .woocommerce-customer-details{
 	color: white;
 }
+
+
+
+/**===========================MEDIA QUERIES=====================**/
+/**HEADER**/
+@media screen and (max-width:320px){
+	header#masthead{
+		width: 100%;
+	}
+	header#masthead nav .header__logo-box a img{
+		width: 100% !important;
+	}
+}
