@@ -28,29 +28,30 @@
     </div><!--front-page__brands-->
 
     <section class="container" id="categories">
+        <h1 class="mobile-only">Welcome To PcWare</h1>
         <h2 class="section-heading">Categories:</h2>
         <div class="row categorie-row">
 
             <div class="col-md-3 categorie-block">
-                <a href="/shop/hard-drives">
+                <a href="/wp/product-category/hard-drives/">
                 <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/hard-drive.png" alt="Hard Drive">
                 <p class="categorie-name">Hard Drives</p>
                 </a>
             </div><!--Col-md-3-->
             <div class="col-md-3 categorie-block">
-                <a href="/shop/processors">
+                <a href="/wp/product-category/processors/">
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/processor.png" alt="Processor">
                     <p class="categorie-name">Proccessors</p>
                 </a>
             </div><!--Col-md-3-->
             <div class="col-md-3 categorie-block">
-                <a href="/shop/graphics-cards">
+                <a href="/wp/product-category/graphics-cards/">
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/graphic-card.png" alt="Graphics Card">
                     <p class="categorie-name">Graphics Cards</p>
                 </a>
             </div><!--Col-md-3-->
             <div class="col-md-3 categorie-block">
-                <a href="/shop/ram">
+                <a href="/wp/product-category/ram/"">
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/ram.png" alt="RAM">
                     <p class="categorie-name">RAM</p>
                 </a>
@@ -60,28 +61,28 @@
 
         <div class="row categorie-row">
             <div class="col-md-3 categorie-block">
-                <a href="/shop[/monitors">
+                <a href="/wp/product-category/monitors/">
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/monitor.png" alt="Monitor">
                     <p class="categorie-name">Monitors</p>
                 </a>
             </div> <!--categorie-block-->
 
             <div class="col-md-3 categorie-block">
-                <a href="/shop/headsets">
+                <a href="/wp/product-category/headsets/">
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/headphones.png" alt="Headphones">
                     <p class="categorie-name">Headsets</p>
                 </a>
             </div> <!--categorie-block-->
 
             <div class="col-md-3 categorie-block">
-                <a href="/shop/keyboards">      
+                <a href="/wp/product-category/keyboards/">      
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/keyboard.png" alt="Keyboards">
                     <p class="categorie-name">Keyboards</p>
                 </a>
             </div><!--Categorie Block-->
 
             <div class="col-md-3 categorie-block">
-                <a href="/shop/mouse">
+                <a href="/wp/product-category/mouse/">
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/mouse.png" alt="Mouse">
                     <p class="categorie-name">Mouses</p>
                 </a>
@@ -91,14 +92,14 @@
 
         <div class="row categorie-row">
             <div class="col-md-3 categorie-block">
-                <a href="/shop/ssd">
+                <a href="/wp/product-category/ssd/">
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/ssd.png" alt="SSD">
                     <p class="categorie-name">SSD</p>
                 </a>
             </div> <!--categorie-block-->
 
             <div class="col-md-3 categorie-block">
-                <a href="/shop/power-supply">    
+                <a href="/wp/product-category/power-supply/">    
                     <img class="categorie-image" src="<?php echo(get_template_directory_uri()); ?>/images/power.png" alt="Power Suply">
                     <p class="categorie-name">Power Suplies</p>
                 </a>

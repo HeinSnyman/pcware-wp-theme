@@ -59,66 +59,24 @@ main#main{
 /**------- HEADER ----------**/
 
 /**NAVBAR**/
-nav{
-	display: flex;
-	width: 100%;
-	background: orange;
+nav.navbar{
+	background: black;
 }
-ul li .nav-link:visited{
-	color: white !important;
-	font-size: 1.2rem !important;
-	text-decoration: none;
-
+nav.navbar .active a{
+	color: #FFA500;
 }
-nav .nav-link:link{
+.fa-navicon{
 	color: white;
-}
-.header__logo-box{
-	width: 35%;
-	float: left;
-	background: #181818;
-
-}
-.header__logo-box img{
-	width: 35% !important;
-}
-
-.header__navigation{
-	width: 65%;
-	float: right;
-	background: #FFA500;
-	display: flex;
-	align-items: center;
-}
-
-ul li.nav-link{
-	display: inline;
-	font-size: 16px;
-	font-weight: 300;
-}
-ul li.nav-link:hover{
-	color: white;
-	text-decoration: none;
-}
-
-#mega-menu-wrap-menu-1, li.mega-nav-link{
-	background: none;
-}
-
-li.mega-nav-link:hover{
-	background: none;
-}
-li.mega-nav-link .mega-current_page_item{
-	background: none;
-}
-#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link{
-	background: none;
-}
-#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:hover{
-	background: none;
 }
 
 /**Front-Page**/
+h1.mobile-only{
+	display: none;
+	font-size: 3.4em;
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
 /**FOOTER**/
 footer{
 	background: black;
@@ -349,6 +307,9 @@ nav.post-navigation{
 	display: none;
 }
 
+.woocommerce ul.products li.product .button{
+	margin-bottom: 1em;
+}
 
 /** CART PAGE **/
 
@@ -527,15 +488,178 @@ h3#order_review_heading{
 	color: white;
 }
 
+/**MY ACCOUNT PAGE**/
+.woocommerce-account .woocommerce-MyAccount-navigation{
+	width: auto;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li{
+	padding: 5px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a{
+	color: #FFA500;
+}
 
+.woocommerce-account .woocommerce-MyAccount-content{
+	width: 90%;
+}
+.woocommerce-account .woocommerce-MyAccount-content p{
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+.woocommerce .woocommerce-MyAccount-content p a{
+	color: orange;
+	font-weight: bolder;
+}
+.woocommerce-account .woocommerce-MyAccount-content > p{
+	text-align: right;
+}
+.woocommerce-account .woocommerce-MyAccount-content p strong{
+	color: #FFA500;
+	font-weight: bolder;
+}
+
+/**ORDERS**/
+.woocommerce-account .woocommerce-MyAccount-content table.woocommerce-orders-table thead tr{
+	font-size: 14px;
+	color: #FFA500;
+	font-weight: bolder;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content table.woocommerce-orders-table tbody tr{
+	color: white;
+	font-size: 14px;
+}
+.woocommerce-account .woocommerce-MyAccount-content .view-order-head{
+	text-align: center;
+}
+.woocommerce-account .woocommerce-MyAccount-content tr th{
+	color: white;
+	font-weight: bolder;
+}
+.woocommerce-account .woocommerce-MyAccount-content tr td{
+	color: white;
+}
+.woocommerce-account .woocommerce-MyAccount-content .order-details{
+	margin-top: 15px;
+}
+.woocommerce-account .woocommerce-MyAccount-content .order-details section.woocommerce-order-details h2{
+	font-size: 16px;
+	color: #FFA500;
+	font-weight: bolder;
+}
+.woocommerce-account .woocommerce-MyAccount-content .order-details section.woocommerce-order-details thead{
+	color: white;
+}
+.woocommerce table.shop_table td.woocommerce-table__product-name{
+	padding-left: 0;
+	padding-right: 0;
+}
+.woocommerce table.shop_table td.woocommerce-table__product-name a{
+	padding-left: 0;
+}
+
+.woocommerce .woocommerce-customer-details{
+	color: white;
+}
+
+/**DOWNLOADS**/
+.woocommerce-account .woocommerce-MyAccount-content .woocommerce-Message{
+	background: none;
+	color: #FFA500;
+	border: none;
+	font-weight: bolder;
+	font-size: 16px;
+	text-align: center;
+}
+.woocommerce-account .woocommerce-MyAccount-content .woocommerce-info::before{
+	display: none;
+}
+.woocommerce-account .woocommerce-MyAccount-content .woocommerce-Addresses{
+	color: white;
+	font-size: 16px;
+}
+.woocommerce-account .addresses .title .edit{
+	color: orange;
+}
+.woocommerce-account legend{
+	font-size: 16px;
+	color: white;
+	
+}
+/** LOGIN FORM**/
+.woocommerce form.woocommerce-form-login{
+	background-color: black;
+	border: none;
+}
+.woocommerce form.woocommerce-form-login label{
+	color: white;
+}
+.woocommerce form.woocommerce-form-login input{
+	background: none;
+	border-color: #FFA500
+}
+
+/**MOBILE SIDEBAR**/
+#mobile-widget-area{
+	margin-top: 15px;
+	margin: 0 auto;
+	background: black;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+#mobile-widget-area ul{
+	text-align: center;
+	display: inline-block;
+	background: black;
+	padding: 15px;
+
+}
+#mobile-widget-area ul li{
+	display: inline;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	
+}
 
 /**===========================MEDIA QUERIES=====================**/
 /**HEADER**/
-@media screen and (max-width:320px){
-	header#masthead{
-		width: 100%;
+@media screen and (max-width: 1000px){
+	#secondary{
+		display: none !important;
 	}
-	header#masthead nav .header__logo-box a img{
-		width: 100% !important;
+	#mobile-widget-area{
+		display: block;
 	}
 }
+@media screen and (max-width: 414px){
+	/**FRONT PAGE**/
+		#front-page__featured{
+			display: none;
+		}
+		#front-page__brands{
+			display: none;
+		}
+		h1.mobile-only{
+			display: inline-block;
+		}
+		section#categories .categorie-row{
+			margin: 0
+		}
+		section#categories .categorie-block{
+			margin-bottom: 25px;
+		}
+		section#categories .categorie-block p.categorie-name{
+			padding: 5px;
+		}
+	/**FOOTER**/
+		footer .footer__shop-nav{
+			display: none;
+		}
+		footer{
+			padding-top: 20px;
+		}
+	
+	}

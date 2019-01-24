@@ -15,9 +15,15 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area container">
 		<main id="main" class="site-main">
-
+		<div>
+			<div id="mobile-widget-area" class="widget-area-mobile row">
+				<?php 
+					dynamic_sidebar( 'mobile_categories' ); 
+				?>
+			</div>
+		</div>
 		<?php
 		while ( have_posts() ) :
 			the_post();

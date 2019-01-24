@@ -13,6 +13,11 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 		<div class="container">
+		<div class="widget-area-mobile">
+			<?php 
+				 dynamic_sidebar( 'mobile_categories' ); 
+				?>
+		</div>
 		<?php
 		while ( have_posts() ) :
 			the_post();
