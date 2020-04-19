@@ -1,1 +1,1 @@
-# H1 Pcware Wordpress Theme with custom Woocommerce templates
+# Pcware Wordpress Theme with custom Woocommerce templates
