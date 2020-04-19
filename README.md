@@ -1,1 +1,1 @@
-Wordpress Theme for a client with WooCommerce
+# H1 Pcware Wordpress Theme with custom Woocommerce templates
